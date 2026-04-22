@@ -8,7 +8,7 @@ Built as part of the **NayaGrowth Frontend Developer Intern** candidate assessme
 
 ## Live Demo
 
-> Add your deployment link here after deploying to Vercel / Netlify.
+🔗 [https://naya-growth-frontend-assignment.vercel.app](https://naya-growth-frontend-assignment.vercel.app)
 
 ---
 
