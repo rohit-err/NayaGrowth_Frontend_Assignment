@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/container-queries";
+
+@theme {
+  --color-primary: #1B4332;
+  --color-on-primary: #ffffff;
+  --color-secondary: #904C31;
+  --color-on-secondary: #ffffff;
+  --color-surface: #FCF9F4;
+  --color-on-surface: #1C1C19;
+  --color-surface-container: #F0EDE8;
+  --color-surface-container-low: #F6F3EE;
+  --color-surface-container-high: #EBE8E3;
+  --color-on-surface-variant: #414844;
+  --color-outline: #717973;
+  --color-primary-container: #C1ECD4;
+  --color-on-primary-container: #002114;
+  --color-secondary-container: #FFDBCE;
+  --color-on-secondary-container: #380D00;
+
+  --radius-brand: 0.5rem;
+
+  --font-headline: "Public Sans", sans-serif;
+  --font-body: "Public Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body);
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
